@@ -1,0 +1,65 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 90%;
+  margin-left: 5%;
+}
+
+p {
+  text-align: justify;
+  width: 90%;
+  margin-left: 5%;
+}
+
+ul {
+  list-style-type: square;
+  width: 90%;
+  margin-left: 5%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  margin-left: 20%;
+}
+  
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+iframe {
+  width: 100%;
+  height: 300px;
+}
+
+#apresentacao {   /* CTRL + : JÁ ATIVA O COMENTÁRIO NAS LINGUAGENS*/
+  /* Eu usei o # pq não foi CLASS lá, e sim ID */
+  text-align: center;
+}
+
+#center {
+  text-align: center;
+}
+
+address {
+  width: 90%;
+  margin-left: 5%;
+}
+
+footer {
+  text-align: center; 
+  font-family: 'Courier New', Courier, monospace; 
+  font-size: small;
+}
